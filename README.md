@@ -1,5 +1,5 @@
 
-# Rozpoznávání rakoviny kůže pomocí AI (ResNet18)  
+# Rozpoznávání rakoviny kůže pomocí AI (ResNet50)  
 
 Tento projekt obsahuje **konvoluční neuronovou síť (CNN)** určenou k **detekci a klasifikaci kožních lézí** z obrázků. Model je schopen rozpoznat **různé typy kožních onemocnění** a určit, zda jde o **benigní** nebo **maligní** útvar.  
 
@@ -14,7 +14,7 @@ Tento projekt obsahuje **konvoluční neuronovou síť (CNN)** určenou k **dete
 - `data/` – **Složka pro dataset** (*uživatel musí stáhnout data z Kaggle, vytvořit složku data a umístit je tam*)  
 - `model/` – **Finální model** vygenerovaný skriptem `training.py`, složka se vytvoří automaticky po spuštění scriptu training.py  
 - `app.py` – **Streamlit aplikace**, umožňuje nahrát obrázek a model provede vyhodnocení  
-- `legacy_training.py` – **První iterace trénování modelů**, použita pro srovnání a výběr finálního modelu  
+- `legacy_training` – **Složka obsahuje první iterace trénování modelů**, použita pro srovnání a výběr finálního modelu, ResNet18  
 - `training.py` – **Hlavní skript pro trénování modelu**  
 - `requirements.txt` – **Seznam základních závislostí** pro běh modelu a aplikace  
 - `requirements_full.txt` – **Seznam všech závislostí**, včetně podpory pro analýzu starších modelů  
