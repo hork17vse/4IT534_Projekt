@@ -9,11 +9,10 @@ Tento projekt obsahuje **konvoluční neuronovou síť (CNN)** určenou k **dete
 
 ---
 
-## 📂 **Struktura repozitáře**  
+## 📂 **Struktura projektu**  
 
-- `data/` – **Složka pro dataset** (*uživatel musí stáhnout data z Kaggle a umístit je sem*)  
-- `legacy_models/` – **Modely z první iterace**, použité pro vyhodnocení nejlepší architektury  
-- `model/` – **Finální model** vygenerovaný skriptem `training.py`  
+- `data/` – **Složka pro dataset** (*uživatel musí stáhnout data z Kaggle, vytvořit složku data a umístit je tam*)  
+- `model/` – **Finální model** vygenerovaný skriptem `training.py`, složka se vytvoří automaticky po spuštění scriptu training.py  
 - `app.py` – **Streamlit aplikace**, umožňuje nahrát obrázek a model provede vyhodnocení  
 - `legacy_training.py` – **První iterace trénování modelů**, použita pro srovnání a výběr finálního modelu  
 - `training.py` – **Hlavní skript pro trénování modelu**  
